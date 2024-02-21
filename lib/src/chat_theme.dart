@@ -313,7 +313,7 @@ class DefaultChatTheme extends ChatTheme {
   /// override only a couple of properties, otherwise create a new class
   /// which extends [ChatTheme].
   const DefaultChatTheme({
-    super.attachmentButtonIcon,
+    super.attachmentButtonIcon = const Icon(Icons.keyboard_voice),
     super.attachmentButtonMargin,
     super.backgroundColor = neutral7,
     super.dateDividerMargin = const EdgeInsets.only(
